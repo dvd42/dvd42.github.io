@@ -1,6 +1,7 @@
 # Site settings
-title: DataUab
-description: 'Just another Data point'
+title: dvd42 
+
+description: 'Just another Data point in an n-dimensional space'
 url: 'https://dvd42.github.io'
 baseurl: 
 # google_analytics: 'UA-XXXXXX-X'
