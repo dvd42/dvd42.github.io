@@ -9,6 +9,11 @@ robots: noindex
     {% for post in paginator.posts %}
       <li>
         <h2 class="post-list__post-title post-title"><a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>
+        {% if post.img %}
+        <div class="post_image" >
+          <img src={{ "/images/" | prepend: site.baseurl | append: post.img }} alt="{{post.title}}">
+        {% endif %}
+        </div>
         <p class="excerpt">{{ post.excerpt | strip_html }}&hellip;</p>
         <div class="post-list__meta">
             <time datetime="{{ post.date | date: "%Y-%m-%d %H:%M" }}" class="post-list__meta--date date">{{ post.date | date: "%-d %b %Y" }}</time>

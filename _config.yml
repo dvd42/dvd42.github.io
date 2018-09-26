@@ -1,18 +1,17 @@
 # Site settings
-title: Jekyll-Uno
-description: 'Jekyll-Uno - a minimal, responsive theme for Jekyll'
-url: 'http://joshgerdes.com/jekyll-uno'
-baseurl: '/jekyll-uno'
+title: DataUab
+description: 'Just another Data point'
+url: 'https://dvd42.github.io'
+baseurl: 
 # google_analytics: 'UA-XXXXXX-X'
-# disqus_shortname: 'your-disqus-name'
+disqus_shortname: 'mr-brown'
 
 author:
-  name: 'Josh Gerdes'
-  email: josh@joshgerdes.com
-  twitter_username: joshgerdes
-  facebook_username: joshgerdes
-  github_username:  joshgerdes
-  linkedin_username:  joshgerdes
+  name: 'Diego Velazquez'
+  email: diegovd0296@gmail.com
+  twitter_username: Mr_PO96
+  github_username: dvd42
+  linkedin_username:  
 
 defaults:
   -
